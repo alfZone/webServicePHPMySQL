@@ -1,0 +1,32 @@
+[
+    {
+        "Marca": "Ferrari",
+        "Detalhes": "F8",
+        "Foto": "https://www.motor24.pt/files/2019/03/1681733_Ferrari_F8_Tributo_4-800x533_c.jpg"
+    },
+    {
+        "Marca": "McLaren",
+        "Detalhes": "720s Spider",
+        "Foto": "https://uploads.diariodopoder.com.br/2022/08/01e5f9d4-2batch_mclaren-720s_spider-2019-1600-02-960x640.jpg"
+    },
+    {
+        "Marca": "Lamborghini",
+        "Detalhes": "Aventador",
+        "Foto": "https://d63oxfkn1m8sf.cloudfront.net/526x324/9917/1569/5324/hk119_1.jpg%3Ffit%3D1"
+    },
+    {
+        "Marca": "Porsche",
+        "Detalhes": "Boxster 987",
+        "Foto": "https://cdn.jornaldenegocios.pt/images/2015-12/img_900x561$2015_12_02_10_19_00_269672.jpg"
+    },
+    {
+        "Marca": "BMW",
+        "Detalhes": "i8 Roadster",
+        "Foto": "https://s2.glbimg.com/YKLGT3NAkJ1PX-Lgo7qu1vqnL84=/smart/e.glbimg.com/og/ed/f/original/2019/12/04/gq101_motor_movidos-pela-paixao_02_bmw-i8-roadster.png"
+    },
+    {
+        "Marca": "Mercedes",
+        "Detalhes": "AMG vision gran turismo",
+        "Foto": "https://i.pinimg.com/originals/18/85/c3/1885c3871f6dc5aa49df75c88a2d8099.jpg"
+    }
+]
