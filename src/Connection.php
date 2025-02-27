@@ -2,6 +2,9 @@
 namespace src;
 use PDO;
 
+//version 1.2
+// 2025/02/27
+
 class Connection{
   // put the database stuffs here in that scope
   private $host = _SERVER;
