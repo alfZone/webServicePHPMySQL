@@ -43,7 +43,11 @@ class Connection{
             } 
         }
         $stmt->execute();
-        return $stmt->fetchAll(\PDO::FETCH_ASSOC);
+        //return $stmt->fetchAll(\PDO::FETCH_ASSOC);
+        $resp=$stmt->fetchAll(\PDO::FETCH_ASSOC);
+        $numElements=count($resp);
+        $resp[0]['numElements']=$numElements;
+        return $resp;
     } catch (\PDOException $e) {
         return json_encode(['msg' => 'Erro: ' . $e->getMessage(), 'status' => '500']);
     }
