@@ -12,6 +12,13 @@ Route::post(['set' => '/api/carros/create', 'as' => 'carros.create'], 'Controlle
 Route::put(['set' => '/api/carros/update', 'as' => 'carros.update'], 'ControllerCarros@update'); 
 Route::delete(['set' => '/api/carros/delete/{id}', 'as' => 'carros.index'], 'ControllerCarros@delete'); 
 
+//api geral
+Route::get(['set' => '/api/{table}', 'as' => 'tables.getAll'], 'ControllerTables@getAll');
+Route::get(['set' => '/api/{table}/{id}', 'as' => 'tables.getById'], 'ControllerTables@getById');
+Route::post(['set' => '/api/{table}', 'as' => 'tables.create'], 'ControllerTables@create');
+Route::put(['set' => '/api/{table}', 'as' => 'tables.update'], 'ControllerTables@update');
+Route::delete(['set' => '/api/{table}/{id}', 'as' => 'tables.delete'], 'ControllerTables@delete');
+
 Route::get('/timeline', function(){require _CAMINHO_TEMPLATE. "timeline.html";});
 
 Route::get(['set' => '/base/index', 'as' => 'base.index'], 'Controller@index'); 
